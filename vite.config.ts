@@ -16,6 +16,12 @@ export default defineConfig(({ mode }) => ({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/docs/, ''),
       },
+      // Proxy /blog requests to the Docusaurus dev server when in development
+      '/blog': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/blog/, '/blog'),
+      }
     }
   },
   plugins: [

@@ -35,6 +35,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          path: './blog',
+          routeBasePath: 'blog',
           editUrl: 'https://github.com/your-org/indie-blogosphere/tree/main/',
         },
         theme: {

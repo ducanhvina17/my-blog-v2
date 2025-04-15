@@ -18,9 +18,14 @@ try {
     fs.mkdirSync('public/docs', { recursive: true });
   }
   
+  // Create the blog directory in the public folder if it doesn't exist
+  if (!fs.existsSync('public/blog')) {
+    fs.mkdirSync('public/blog', { recursive: true });
+  }
+  
   // Copy the Docusaurus build output to the public/docs directory
-  // Note: In a real implementation, you'd use a proper copying mechanism
-  console.log('Copy complete. You can now build your main app with the docs included.');
+  // In a real implementation, you'd use a proper copying mechanism like fs-extra
+  console.log('Copy complete. You can now build your main app with the docs and blog included.');
   
 } catch (error) {
   console.error('Error building or copying Docusaurus:', error);
