@@ -394,7 +394,7 @@ function isUser(obj: unknown): obj is User {
 
 // Usage with API responses
 async function getUser(id: string): Promise<User> {
-  const response = await fetch(`/api/users/${id}`);
+  const response = await fetch(\`/api/users/\${id}\`);
   const data = await response.json();
   
   if (isUser(data)) {
@@ -486,7 +486,7 @@ class UserController {
   ) {}
   
   async handleGetUser(id: string): Promise<User> {
-    this.logger.info(`Fetching user: ${id}`);
+    this.logger.info(\`Fetching user: \${id}\`);
     try {
       const user = await this.userService.getUser(id);
       return user;
@@ -738,7 +738,7 @@ const params = {
   TableName: 'UserActions',
   Key: {
     userId: '123',
-    actionId: `${timestamp}#${uuid()}` // Ensures even distribution
+    actionId: \`\${timestamp}#\${uuid()}\` // Ensures even distribution
   }
 };
 \`\`\`
