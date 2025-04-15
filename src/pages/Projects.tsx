@@ -48,7 +48,7 @@ const Projects = () => {
         <div className="mb-10 animate-fade-in">
           <h1 className="mb-4">Projects</h1>
           <p className="text-lg text-muted-foreground">
-            Applications, libraries, and tools I've built as an indie developer.
+            Applications, libraries, and tools I've built as an developer.
           </p>
         </div>
 

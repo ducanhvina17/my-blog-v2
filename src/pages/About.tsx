@@ -44,7 +44,7 @@ const About = () => {
             <h1 className="mb-4">About Me</h1>
             <div className="space-y-4 text-lg">
               <p>
-                Hello! I'm an indie developer passionate about creating useful software and sharing what I learn along the way.
+                Hello! I'm an developer passionate about creating useful software and sharing what I learn along the way.
               </p>
               <p>
                 After several years working in tech companies, I decided to pursue the independent route, building my own products and working with select clients on projects I'm passionate about.
@@ -53,7 +53,7 @@ const About = () => {
                 When I'm not coding, you'll find me writing technical articles, contributing to open-source projects, and exploring new technologies.
               </p>
               <p>
-                This blog is my digital garden where I share insights, tutorials, and lessons learned from my journey as an indie developer.
+                This blog is my digital garden where I share insights, tutorials, and lessons learned from my journey as an developer.
               </p>
             </div>
 
@@ -96,8 +96,8 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-                <h2 className="mb-2 text-2xl font-bold">Jane Developer</h2>
-                <p className="mb-4 text-muted-foreground">Indie Developer & Writer</p>
+                <h2 className="mb-2 text-2xl font-bold">Anh Nguyen Developer</h2>
+                <p className="mb-4 text-muted-foreground">AnhDojo Developer & Writer</p>
                 <div className="mb-4 flex flex-wrap justify-center gap-2">
                   <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
                     React

@@ -36,7 +36,7 @@ export function AboutSection() {
         <div className="grid gap-8 md:grid-cols-2">
           <div className="space-y-4">
             <p className="leading-relaxed">
-              I'm an indie developer passionate about building products that solve real problems. 
+              I'm an developer passionate about building products that solve real problems. 
               With a background in software engineering, I enjoy the entire process from ideation to launch.
             </p>
             <p className="leading-relaxed">

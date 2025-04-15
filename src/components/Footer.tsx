@@ -9,7 +9,7 @@ export function Footer() {
         <div className="flex flex-col items-center gap-4 md:items-start">
           <Link to="/" className="flex items-center gap-2">
             <span className="text-lg font-bold text-foreground bg-primary text-primary-foreground w-8 h-8 flex items-center justify-center rounded-md">I</span>
-            <span className="text-base font-bold">Indie Dev Blog</span>
+            <span className="text-base font-bold">Anhdojo Blog</span>
           </Link>
           <p className="text-sm text-muted-foreground text-center md:text-left">
             Exploring code, design, and the indie hacker journey
@@ -56,7 +56,7 @@ export function Footer() {
       
       <div className="container mt-8 border-t border-border/50 pt-6">
         <p className="text-xs text-muted-foreground text-center">
-          © {new Date().getFullYear()} Indie Developer Blog. All rights reserved.
+          © {new Date().getFullYear()} AnhDojo Developer Blog. All rights reserved.
         </p>
       </div>
     </footer>

@@ -27,7 +27,7 @@ export function MainNav() {
         <div className="flex items-center gap-2">
           <Link to="/" className="flex items-center gap-2" onClick={closeNav}>
             <span className="text-xl font-bold text-foreground bg-primary text-primary-foreground w-8 h-8 flex items-center justify-center rounded-md">I</span>
-            <span className="text-lg font-bold hidden sm:inline-block">Indie Dev Blog</span>
+            <span className="text-lg font-bold hidden sm:inline-block">AnhDojo Blog</span>
           </Link>
         </div>
         

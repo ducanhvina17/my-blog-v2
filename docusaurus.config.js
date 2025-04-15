@@ -5,10 +5,10 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Indie Dev Blog Docs',
-  tagline: 'Documentation & Guides',
+  title: 'Anhdojo',
+  tagline: 'Anhdojo is a blog about development, programming, and technology.',
   favicon: 'public/favicon.ico',
-  url: 'https://your-domain.com',
+  url: 'https://anhdojo.com',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -52,9 +52,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Indie Dev Docs',
+        title: 'Anhdojo',
         logo: {
-          alt: 'Indie Dev Logo',
+          alt: 'Anhdojo Logo',
           src: 'img/logo.svg',
         },
         items: [

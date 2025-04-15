@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 export function HeroSection() {
   const [typedText, setTypedText] = useState("");
-  const fullText = "indie developer";
+  const fullText = "Backend Developer";
   
   useEffect(() => {
     let currentIndex = 0;
