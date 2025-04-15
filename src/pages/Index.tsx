@@ -1,5 +1,5 @@
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Layout } from "@/components/Layout";
 import { HeroSection } from "@/components/HeroSection";
 import { LatestPosts } from "@/components/LatestPosts";
