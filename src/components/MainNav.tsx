@@ -4,7 +4,6 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { cn } from "@/lib/utils";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 export function MainNav() {
@@ -18,6 +17,7 @@ export function MainNav() {
     { title: "Home", href: "/" },
     { title: "Blog", href: "/blog" },
     { title: "Projects", href: "/projects" },
+    { title: "Docs", href: "/docs" },
     { title: "About", href: "/about" },
   ];
 

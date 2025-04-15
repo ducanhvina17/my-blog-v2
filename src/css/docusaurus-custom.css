@@ -1,0 +1,36 @@
+
+:root {
+  --ifm-color-primary: hsl(260, 60%, 55%);
+  --ifm-color-primary-dark: hsl(260, 60%, 50%);
+  --ifm-color-primary-darker: hsl(260, 60%, 45%);
+  --ifm-color-primary-darkest: hsl(260, 60%, 40%);
+  --ifm-color-primary-light: hsl(260, 60%, 60%);
+  --ifm-color-primary-lighter: hsl(260, 60%, 65%);
+  --ifm-color-primary-lightest: hsl(260, 60%, 70%);
+  
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-code-font-size: 95%;
+  --ifm-code-font-family: 'Fira Code', monospace;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: hsl(260, 60%, 65%);
+  --ifm-color-primary-dark: hsl(260, 60%, 60%);
+  --ifm-color-primary-darker: hsl(260, 60%, 55%);
+  --ifm-color-primary-darkest: hsl(260, 60%, 50%);
+  --ifm-color-primary-light: hsl(260, 60%, 70%);
+  --ifm-color-primary-lighter: hsl(260, 60%, 75%);
+  --ifm-color-primary-lightest: hsl(260, 60%, 80%);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Match typography and base styling with your main site */
+body {
+  font-family: var(--ifm-font-family-base);
+}
+
+code {
+  font-family: var(--ifm-code-font-family);
+}

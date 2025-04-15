@@ -1,0 +1,55 @@
+
+---
+sidebar_position: 1
+title: Getting Started
+description: Introduction to our documentation
+---
+
+# Welcome to the Docs
+
+This is your first MDX document in Docusaurus.
+
+## What you'll need
+
+- [Node.js](https://nodejs.org/en/download/) version 16.14 or above
+
+## Using React components in MDX
+
+Docusaurus supports using React components within your MDX files:
+
+```jsx
+import { Button } from '@/components/ui/button';
+
+<Button>Click me!</Button>
+```
+
+## Code Syntax Highlighting
+
+```jsx title="src/components/MyComponent.tsx"
+import React from 'react';
+
+function MyComponent() {
+  return <div>Hello world!</div>;
+}
+
+export default MyComponent;
+```
+
+## Interactive Example
+
+Below is an interactive example (you'll need to implement the actual component):
+
+import { CodeBlock } from '@/components/blog/CodeBlock';
+
+<CodeBlock
+  language="typescript"
+  code={`function greeting(name: string): string {
+  return \`Hello, \${name}!\`;
+}
+
+console.log(greeting('Developer'));`}
+/>
+
+## Next Steps
+
+Continue exploring our documentation to learn more about the features and capabilities of our platform.
