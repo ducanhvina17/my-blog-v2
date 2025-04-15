@@ -14,8 +14,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
 
   // GitHub pages deployment config
-  organizationName: 'your-org', 
-  projectName: 'indie-blogosphere',
+  organizationName: 'anhdojo', // Usually your GitHub org/user name.
+  projectName: 'my-blog', // Usually your repo name.
 
   // Even if you don't use internationalization, you can use this field to set
   // locale-specific configurations
@@ -31,13 +31,13 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/your-org/indie-blogosphere/tree/main/',
+          editUrl: 'https://github.com/anhdojo/my-blog/tree/main/',
         },
         blog: {
           showReadingTime: true,
           path: './blog',
           routeBasePath: 'blog',
-          editUrl: 'https://github.com/your-org/indie-blogosphere/tree/main/',
+          editUrl: 'https://github.com/anhdojo/my-blog/tree/main/',
         },
         theme: {
           customCss: './src/css/docusaurus-custom.css',
@@ -66,7 +66,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/your-org/indie-blogosphere',
+            href: 'https://github.com/ducanhvina17',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,7 +102,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-org/indie-blogosphere',
+                href: 'https://github.com/ducanhvina17',
               },
             ],
           },
